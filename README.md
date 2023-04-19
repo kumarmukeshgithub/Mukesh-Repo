@@ -18,11 +18,6 @@ class Solution:
             if d[val]>1:
                 return key+1
         return -1
-        #{ 
- # Driver Code Starts
-#Initial Template for Python 3
-
-#contributed by RavinderSinghPB
 if __name__=='__main__':
     t=int(input())
     for _ in range(t):
@@ -31,5 +26,4 @@ if __name__=='__main__':
         arr=[int(x) for x in input().strip().split()]
         ob = Solution()
         print(ob.firstRepeated(arr, n))
-# } Driver Code Ends
     
